@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AETERNUM — швейцарские часы ручной работы. Вечность, воплощённая в механизме.">
+  <meta name="theme-color" content="#080808">
+  <title>AETERNUM — Вечность в движении</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#hero" class="header__logo" aria-label="AETERNUM — на главную">
+        <span class="header__logo-mark">Æ</span>
+        <span class="header__logo-text">AETERNUM</span>
+      </a>
+      <nav class="header__nav" aria-label="Основная навигация">
+        <ul class="header__nav-list">
+          <li><a href="#philosophy" class="nav-link" data-nav>Философия</a></li>
+          <li><a href="#heritage" class="nav-link" data-nav>Наследие</a></li>
+          <li><a href="#craftsmanship" class="nav-link" data-nav>Мастерство</a></li>
+          <li><a href="#collection" class="nav-link" data-nav>Коллекция</a></li>
+        </ul>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav aria-label="Мобильная навигация">
+        <ul class="mobile-menu__list">
+          <li><a href="#philosophy" class="mobile-menu__link" data-nav>Философия</a></li>
+          <li><a href="#heritage" class="mobile-menu__link" data-nav>Наследие</a></li>
+          <li><a href="#craftsmanship" class="mobile-menu__link" data-nav>Мастерство</a></li>
+          <li><a href="#collection" class="mobile-menu__link" data-nav>Коллекция</a></li>
+          <li><a href="#manifesto" class="mobile-menu__link" data-nav>Манифест</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" data-section>
+      <div class="hero__media">
+        <div class="hero__image-wrap" data-parallax="0.12">
+          <img
+            src="images/hero-800.jpg"
+            srcset="images/hero-800.jpg 800w, images/hero-1600.jpg 1600w"
+            sizes="100vw"
+            alt="Часы AETERNUM"
+            class="hero__image"
+            width="1600"
+            height="1067"
+            decoding="async"
+            fetchpriority="high"
+            data-fallback="hero"
+          >
+        </div>
+        <div class="hero__vignette"></div>
+      </div>
+        <div class="hero__content">
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__brand">
+          <span class="hero__brand-mark" aria-hidden="true">Æ</span>
+          <h1 class="hero__brand-name">
+            <span class="hero__brand-letter">A</span><span class="hero__brand-letter">E</span><span class="hero__brand-letter">T</span><span class="hero__brand-letter">E</span><span class="hero__brand-letter">R</span><span class="hero__brand-letter">N</span><span class="hero__brand-letter">U</span><span class="hero__brand-letter">M</span>
+          </h1>
+          <span class="hero__brand-rule" aria-hidden="true"></span>
+        </div>
+        <p class="hero__tagline reveal" data-reveal data-delay="2">Вечность в движении</p>
+        <p class="hero__eyebrow reveal" data-reveal data-delay="3">
+          Швейцарское мануфактурное искусство · Женева
+        </p>
+      </div>
+    </section>
+
+    <section class="philosophy section" id="philosophy" data-section>
+      <div class="philosophy__grid">
+        <div class="philosophy__aside">
+          <span class="section-label reveal" data-reveal>01 — Философия</span>
+          <h2 class="philosophy__heading reveal" data-reveal data-delay="1">
+            Время не измеряется.<br><em>Оно проживается.</em>
+          </h2>
+        </div>
+        <div class="philosophy__body">
+          <p class="philosophy__lead reveal" data-reveal data-delay="2">
+            AETERNUM — часы для тех, кто выбирает медленность. Один экземпляр собирается вручную в Женеве за триста часов.
+          </p>
+          <blockquote class="philosophy__quote reveal" data-reveal data-delay="3">
+            Роскошь — не то, что на запястье, а то, что остаётся, когда всё остальное исчезает.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage section section--dark" id="heritage" data-section>
+      <div class="heritage__intro">
+        <span class="section-label reveal" data-reveal>02 — Наследие</span>
+        <h2 class="heritage__title reveal" data-reveal data-delay="1">Корни в веках</h2>
+      </div>
+      <div class="heritage__stats">
+        <article class="heritage__stat reveal" data-reveal data-delay="1">
+          <span class="heritage__stat-number" data-count="1874">0</span>
+          <span class="heritage__stat-label">Основание мастерской</span>
+        </article>
+        <article class="heritage__stat reveal" data-reveal data-delay="2">
+          <span class="heritage__stat-number" data-count="150">0</span>
+          <span class="heritage__stat-unit">лет</span>
+          <span class="heritage__stat-label">часовой традиции</span>
+        </article>
+        <article class="heritage__stat reveal" data-reveal data-delay="3">
+          <span class="heritage__stat-number" data-count="12">0</span>
+          <span class="heritage__stat-label">Мастеров в ателье</span>
+        </article>
+      </div>
+      <p class="heritage__note reveal" data-reveal data-delay="4">
+        1874 — мастерская в Ле-Сентье. 2001 — рождение AETERNUM и калибра Æ-01.
+      </p>
+    </section>
+
+    <section class="craft section" id="craftsmanship" data-section>
+      <div class="craft__layout">
+        <div class="craft__visual reveal-mask" data-reveal>
+          <img
+            src="images/craft-800.jpg"
+            srcset="images/craft-800.jpg 800w, images/craft-1200.jpg 1200w"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            alt="Механизм калибра Æ-01"
+            width="1200"
+            height="800"
+            decoding="async"
+            loading="lazy"
+            data-fallback="craft"
+          >
+          <span class="craft__caption">Калибр Æ-01 · 72-часовой запас хода</span>
+        </div>
+        <div class="craft__content">
+          <span class="section-label reveal" data-reveal>03 — Мастерство</span>
+          <h2 class="craft__title reveal" data-reveal data-delay="1">Руки, которые слышат время</h2>
+          <ul class="craft__list">
+            <li class="reveal" data-reveal data-delay="2">
+              <strong>Сборка</strong> — 312 компонентов, каждый установлен вручную.
+            </li>
+            <li class="reveal" data-reveal data-delay="3">
+              <strong>Отделка</strong> — перлинг и Côtes de Genève под лупой ×10.
+            </li>
+            <li class="reveal" data-reveal data-delay="4">
+              <strong>Регулировка</strong> — ±2 секунды в сутки, сертификат хронометра.
+            </li>
+          </ul>
+          <div class="materials-inline reveal" data-reveal data-delay="5">
+            <span class="materials-inline__label">Материалы</span>
+            <p>Платина 950 · эмаль Grand Feu · сапфировое стекло · кожа аллигатора</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection section section--dark" id="collection" data-section>
+      <div class="collection__header">
+        <span class="section-label reveal" data-reveal>04 — Коллекция</span>
+        <h2 class="collection__title reveal" data-reveal data-delay="1">Ключевые модели</h2>
+      </div>
+      <div class="collection__grid">
+        <article class="collection__item reveal" data-reveal>
+          <div class="collection__link" tabindex="0" role="group" aria-label="AETERNUM Noctis">
+            <div class="collection__item-media">
+              <img
+                src="images/noctis-800.jpg"
+                srcset="images/noctis-800.jpg 800w, images/noctis-1200.jpg 1200w"
+                sizes="(min-width: 768px) 45vw, 100vw"
+                alt="AETERNUM Noctis"
+                width="1200"
+                height="1500"
+                decoding="async"
+                loading="lazy"
+                data-fallback="noctis"
+              >
+            </div>
+            <div class="collection__item-info">
+              <h3 class="collection__item-name">Noctis</h3>
+              <p class="collection__item-detail">40 мм · Платина · Лунная фаза</p>
+            </div>
+          </div>
+        </article>
+        <article class="collection__item reveal" data-reveal data-delay="1">
+          <div class="collection__link" tabindex="0" role="group" aria-label="AETERNUM Æterna">
+            <div class="collection__item-media">
+              <img
+                src="images/aeterna-800.jpg"
+                srcset="images/aeterna-800.jpg 800w, images/aeterna-1200.jpg 1200w"
+                sizes="(min-width: 768px) 45vw, 100vw"
+                alt="AETERNUM Æterna"
+                width="1200"
+                height="840"
+                decoding="async"
+                loading="lazy"
+                data-fallback="aeterna"
+              >
+            </div>
+            <div class="collection__item-info">
+              <h3 class="collection__item-name">Æterna</h3>
+              <p class="collection__item-detail">41 мм · Скелетон · 50 экземпляров</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="manifesto" data-section>
+      <div class="manifesto__inner">
+        <span class="section-label reveal" data-reveal>05 — Манифест</span>
+        <blockquote class="manifesto__quote">
+          <span class="manifesto__line reveal" data-reveal>Мы не создаём часы,</span>
+          <span class="manifesto__line manifesto__line--gold reveal" data-reveal data-delay="1">чтобы показать время.</span>
+          <span class="manifesto__line reveal" data-reveal data-delay="2">Мы создаём время, которое стоит показать.</span>
+        </blockquote>
+        <p class="manifesto__brand reveal" data-reveal data-delay="3">AETERNUM</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+      <a href="#hero" class="footer__logo" aria-label="AETERNUM — на главную">
+        <span class="footer__logo-mark">Æ</span>
+        <span class="footer__logo-text">AETERNUM</span>
+      </a>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <ul class="footer__nav-list">
+          <li><a href="#philosophy" class="footer__link nav-link" data-nav>Философия</a></li>
+          <li><a href="#heritage" class="footer__link nav-link" data-nav>Наследие</a></li>
+          <li><a href="#craftsmanship" class="footer__link nav-link" data-nav>Мастерство</a></li>
+          <li><a href="#collection" class="footer__link nav-link" data-nav>Коллекция</a></li>
+        </ul>
+      </nav>
+      <p class="footer__tagline">Вечность в движении</p>
+      <div class="footer__bottom">
+        <p class="footer__copy">© AETERNUM 2025</p>
+        <button class="footer__top" id="topBtn" aria-label="Наверх">
+          <span>Наверх</span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M6 2L6 10M6 2L2 6M6 2L10 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
